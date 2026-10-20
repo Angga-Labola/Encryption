@@ -3,9 +3,9 @@ import base64
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 import os
-from dotenv import load_dotenv
-load_dotenv()
-# key = get_random_bytes(32)
+#from dotenv import load_dotenv
+#load_dotenv()
+
 key=os.getenv("key")
 #key = b' \xd3\xfd\xa1R\xcf\x13K\xae\x9cV\xe1a\x89\xe9\xca\x96\xcfFM\xa7J\xe5\xd3\xe2\xc1\x0efdl\x9f\xf9'
 
