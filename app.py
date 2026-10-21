@@ -38,6 +38,3 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-string_key=base64.b64encode(key).decode('utf-8')
-print(string_key)
