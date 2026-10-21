@@ -7,7 +7,6 @@ import os
 #load_dotenv()
 
 key=os.getenv("key")
-#key = b' \xd3\xfd\xa1R\xcf\x13K\xae\x9cV\xe1a\x89\xe9\xca\x96\xcfFM\xa7J\xe5\xd3\xe2\xc1\x0efdl\x9f\xf9'
 
 # Encrypt a string
 def encrypt_string(plain_text: str, key: str) -> str:
